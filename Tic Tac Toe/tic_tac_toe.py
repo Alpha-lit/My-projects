@@ -121,7 +121,7 @@ def CheckWin():
        btn3.get()=='X'and btn6.get()=='X'and btn9.get()=='X'or
        btn1.get()=='X'and btn5.get()=='X'and btn9.get()=='X'or
        btn3.get()=='X'and btn5.get()=='X'and btn7.get()=='X'):
-       tkinter.messagebox.showinfo('Tic Tac Toe', 'Player X WIN!. IF U LOSE TO GAY PLAYER U WILL BE GAY!')
+       tkinter.messagebox.showinfo('Tic Tac Toe', 'Player X WIN!.')
        click = True
        count = 0
        clear()
@@ -134,7 +134,7 @@ def CheckWin():
        btn3.get()=='O'and btn6.get()=='O'and btn9.get()=='O'or
        btn1.get()=='O'and btn5.get()=='O'and btn9.get()=='O'or
        btn3.get()=='O'and btn5.get()=='O'and btn7.get()=='O'):
-       tkinter.messagebox.showinfo('Tic Tac Toe', 'GAY Player WIN!, THE X PLAYER IS GAY!')
+       tkinter.messagebox.showinfo('Tic Tac Toe', 'O Player WIN!')
        count = 0
        clear()
        play()
